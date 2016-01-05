@@ -1,0 +1,43 @@
+.debug{
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid #cc2;
+    border-radius: 8px;
+    
+    background: #dd3;
+    
+    font-family: monospace, Arial, sans-serif;
+    font-size: 13px;
+    text-align: left;
+    color: #000;
+    
+    p, pre{ margin: 0; }
+    pre{
+        padding: 5px;
+        border: none;
+        
+        background: none;
+    }
+    
+    .color(-yellow, #f2f5a9);
+    .-yellow; // default color
+    .color(-red, #ffb0b0);
+    .color(-blue, #b6d3fe);
+    .color(-green, #a4efb2);
+    .color(-violet, #e3cef6);
+    .color(-pink, #f6ceec);
+    .color(-orange, #f7be81);
+    .color(-grey, #ddd);
+}
+
+.color(@name, @hexa){
+    &.@{name}{
+        background-color: @hexa;
+        border-color: darken(@hexa, 10%);
+
+        &.-darker{
+            background-color: darken(@hexa, 10%);
+            border-color: darken(@hexa, 20%);
+        }
+    }
+}
