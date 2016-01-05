@@ -1,0 +1,91 @@
+.debug {
+  margin: 10px;
+  padding: 15px;
+  border: 2px solid #cc2;
+  border-radius: 8px;
+  
+  background-color: #f2f5a9;
+  border-color: #ebf07b;
+  
+  font-family: monospace, Arial, sans-serif;
+  font-size: 13px;
+  text-align: left;
+  color: #000;
+}
+.debug p,
+.debug pre {
+  margin: 0;
+}
+.debug pre {
+  padding: 5px;
+  border: none;
+  background: none;
+}
+.debug.-darker {
+  background-color: #ebf07b;
+  border-color: #e4ea4e;
+}
+.-yellow {
+  background-color: #f2f5a9;
+  border-color: #ebf07b;
+}
+.-yellow.-darker {
+  background-color: #ebf07b;
+  border-color: #e4ea4e;
+}
+.-red {
+  background-color: #ffb0b0;
+  border-color: #ff7d7d;
+}
+.-red.-darker {
+  background-color: #ff7d7d;
+  border-color: #ff4a4a;
+}
+.-blue {
+  background-color: #b6d3fe;
+  border-color: #84b5fd;
+}
+.-blue.-darker {
+  background-color: #84b5fd;
+  border-color: #5196fd;
+}
+.-green {
+  background-color: #a4efb2;
+  border-color: #79e78d;
+}
+.-green.-darker {
+  background-color: #79e78d;
+  border-color: #4de069;
+}
+.-violet {
+  background-color: #e3cef6;
+  border-color: #caa3ee;
+}
+.-violet.-darker {
+  background-color: #caa3ee;
+  border-color: #b278e6;
+}
+.-pink {
+  background-color: #f6ceec;
+  border-color: #eea3db;
+}
+.-pink.-darker {
+  background-color: #eea3db;
+  border-color: #e678cb;
+}
+.-orange {
+  background-color: #f7be81;
+  border-color: #f4a551;
+}
+.-orange.-darker {
+  background-color: #f4a551;
+  border-color: #f18d21;
+}
+.-grey {
+  background-color: #dddddd;
+  border-color: #c4c4c4;
+}
+.-grey.-darker {
+  background-color: #c4c4c4;
+  border-color: #aaaaaa;
+}
